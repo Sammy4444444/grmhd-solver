@@ -1,8 +1,5 @@
-#!/usr/bin/env python3
-"""
-GRMHD Simulation Result Plotter (Multi-dimensional 1D / 2D reader)
-Automatically detects whether the CSV contains 1D or 2D simulation data.
-"""
+
+
 
 import sys
 import os
