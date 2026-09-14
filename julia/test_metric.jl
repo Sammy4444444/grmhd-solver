@@ -29,9 +29,9 @@ function kerr_metric_components(r::Float64, theta::Float64; M::Float64=1.0, a::F
 end
 
 function main()
-    println("=========================================")
+    println("/////////////////////////////////////////")
     println(" Julia GR Metric Prototype & Test Script")
-    println("=========================================")
+    println("/////////////////////////////////////////")
 
     r_test = 5.0
     theta_test = pi / 4.0
