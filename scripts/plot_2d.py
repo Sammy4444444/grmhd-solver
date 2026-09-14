@@ -1,8 +1,4 @@
-#!/usr/bin/env python3
-"""
-2D GRMHD Simulation Contour Plotter
-Reads output CSV containing 2D spatial data (x, y, rho, press, alpha) and generates 2D contour maps.
-"""
+
 
 import sys
 import os
