@@ -10,7 +10,7 @@ A high-performance **2D General Relativistic Magnetohydrodynamics (GRMHD)** simu
 
 ---
 
-## 🔬 Physics & Numerical Methods
+##  Physics & Numerical Methods
 
 ### 1. Spacetime Geometry & ADM 3+1 Formalism
 The simulation operates on a **Kerr-Schild Spacetime** background surrounding a fast-spinning black hole with mass $M = 1.0$ and dimensionless spin parameter $a = 0.9375$. In Cartesian-like Kerr-Schild coordinates $(t, x, y, z)$, the metric decomposes under the ADM 3+1 split:
@@ -39,7 +39,7 @@ The GRMHD state vector contains primitive variables $P = (\rho, P, v^i, B^i)$ ma
 
 ---
 
-## 📁 Directory Structure
+## Directory Structure
 
 ```text
 grmhd-solver/
@@ -62,7 +62,7 @@ grmhd-solver/
 
 ---
 
-## 🛠️ Prerequisites
+##  Prerequisites
 
 Ensure you have the following installed on your system:
 - **C++ Compiler**: C++17 compatible (GCC 8+, Clang 7+, or MSVC 2019+)
@@ -72,7 +72,7 @@ Ensure you have the following installed on your system:
 
 ---
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### 1. One-Click Automated Build & Execution
 
@@ -104,7 +104,7 @@ python scripts/plot_results.py output_2d.csv
 
 ---
 
-## 📊 Simulation Output & Visualizations
+##  Simulation Output & Visualizations
 
 After completing execution, the solver generates `output_2d.csv` and renders a 3-panel visualization image `grmhd_2d_contour.png`:
 
