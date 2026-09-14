@@ -114,5 +114,5 @@ After completing execution, the solver generates `output_2d.csv` and renders a 3
 
 ---
 
-## 📜 License
+## License
 This project is open-source and available under the MIT License.
