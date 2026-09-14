@@ -11,9 +11,9 @@
 using namespace GRMHD;
 
 int main() {
-    std::cout << "=========================================================\n";
+    std::cout << "---------------------------------------------------------\n";
     std::cout << " GRMHD Engine: 2D Full Grid Kerr-Schild Black Hole Solver\n";
-    std::cout << "=========================================================\n";
+    std::cout << "---------------------------------------------------------\n";
 
     // 1. Black Hole Parameters
     double M = 1.0;
