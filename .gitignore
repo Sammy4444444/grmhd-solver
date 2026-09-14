@@ -1,0 +1,50 @@
+# ==============================================================================
+# Git Ignore Rules for GRMHD Solver Project
+# ==============================================================================
+
+# Build Directories & Artifacts
+build/
+bin/
+lib/
+out/
+
+# C++ Executables & Object Files
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.pdb
+*.ilk
+*.idb
+
+# Simulation Output Files & Visualizations
+output.csv
+output_2d.csv
+*.csv
+*.png
+*.jpg
+*.jpeg
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDE & Editor Cache
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosv
+*.sln.docstates
+
+# OS Generated Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
